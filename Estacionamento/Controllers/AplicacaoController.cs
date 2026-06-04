@@ -27,6 +27,8 @@ namespace Estacionamento.Controllers
         public IActionResult AplicacaoRegistrarEntrada(string placa)
         {
 
+            placa = placa.ToUpper();
+
             if (!Veiculo.VeiculoPlacaValida(placa)){
                 return BadRequest("Placa de veículo inválida.");
             }
