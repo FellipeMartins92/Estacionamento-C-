@@ -83,12 +83,6 @@ namespace Estacionamento.Controllers
 
             entradaSaida.EntradaSaidaSaida = DateTime.Now;
 
-            if (entradaSaida.EntradaSaidaSaida.HasValue)
-            {
-                entradaSaida.EntradaSaidaSaida =
-                    entradaSaida.EntradaSaidaSaida.Value.AddHours(3);
-            }
-
             var taxa = _context.Taxa
                 .Where(t => t.TaxaAtiva == true)
                 .OrderBy(t => Math.Abs(
