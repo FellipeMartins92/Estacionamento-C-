@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Veículo";
+}
+
+@model List<Estacionamento.Models.EntradaSaida>
+
+<div class="text-center">
+    <h1 class="display-4">Histórico do Veículo</h1>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Placa</th>
+            <th>Entrada</th>
+            <th>Saída</th>
+            <th>Valor</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var entrada in Model)
+        {
+            <tr>
+
+                <td>@entrada.EntradaSaidaPlaca</td>
+
+                <td>
+                    @entrada.EntradaSaidaEntrada.ToString("dd/MM/yyyy HH:mm")
+                </td>
+
+                <td>
+                    @(entrada.EntradaSaidaSaida?.ToString("dd/MM/yyyy HH:mm") ?? "-")
+                </td>
+
+                <td>
+                    @(entrada.EntradaSaidaValor?.ToString("C2") ?? "-")
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Aplicacao"
+   asp-controller="Aplicacao"
+   class="btn btn-secondary">
+    Voltar
+</a>

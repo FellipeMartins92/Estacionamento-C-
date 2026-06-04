@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Estacionamento.Models.EntradaSaida>
+
+@{
+    ViewData["Title"] = "Aplicação";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Aplicação</h1>
+</div>
+
+<form asp-action="AplicacaoRegistrarEntrada"
+      asp-controller="Aplicacao"
+      method="post">
+
+    <div class="mb-3">
+        <label>Placa Veículo</label>
+        <input name="placa" class="form-control" />
+    </div>
+
+    <button class="btn btn-primary" type="submit">
+        Registrar Entrada
+    </button>
+
+</form>
+
+<hr />
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Placa</th>
+            <th>Entrada</th>
+            <th>Saída</th>
+            <th>Valor</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var entrada in Model)
+        {
+            <tr>
+
+                <td>@entrada.EntradaSaidaPlaca</td>
+
+                <td>
+                    @entrada.EntradaSaidaEntrada.ToString("dd/MM/yyyy HH:mm")
+                </td>
+
+                <td>
+                    @(entrada.EntradaSaidaSaida?.ToString("dd/MM/yyyy HH:mm") ?? "-")
+                </td>
+
+                <td>
+                    @(entrada.EntradaSaidaValor?.ToString("C2") ?? "-")
+                </td>
+
+                <td>
+                    @if (entrada.EntradaSaidaSaida == null)
+                    {
+                        <a class="btn btn-warning btn-sm"
+                           asp-action="AplicacaoRegistrarSaida"
+                           asp-controller="Aplicacao"
+                           asp-route-Id="@entrada.Id">
+                            Registrar Saída
+                        </a>
+                    }
+
+                    <a class="btn btn-info btn-sm"
+                       asp-action="VeiculoInformacoes"
+                       asp-controller="Veiculo"
+                       asp-route-placa="@entrada.EntradaSaidaPlaca">
+                        Informações
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

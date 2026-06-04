@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|c:\\users\\fellipe\\source\\repos\\estacionamento\\estacionamento\\controllers\\taxacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|solutionrelative:estacionamento\\controllers\\taxacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|c:\\users\\fellipe\\source\\repos\\estacionamento\\estacionamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|solutionrelative:estacionamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|c:\\users\\fellipe\\source\\repos\\estacionamento\\estacionamento\\controllers\\aplicacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|solutionrelative:estacionamento\\controllers\\aplicacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|c:\\users\\fellipe\\source\\repos\\estacionamento\\estacionamento\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|solutionrelative:estacionamento\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|c:\\users\\fellipe\\source\\repos\\estacionamento\\estacionamento\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|solutionrelative:estacionamento\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|c:\\users\\fellipe\\source\\repos\\estacionamento\\estacionamento\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|solutionrelative:estacionamento\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|c:\\users\\fellipe\\source\\repos\\estacionamento\\estacionamento\\views\\aplicacao\\aplicacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E93B91EF-3101-465D-AEBC-40F60D16C94B}|Estacionamento\\Estacionamento.csproj|solutionrelative:estacionamento\\views\\aplicacao\\aplicacao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AplicacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Controllers\\AplicacaoController.cs",
+              "RelativeDocumentMoniker": "Estacionamento\\Controllers\\AplicacaoController.cs",
+              "ToolTip": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Controllers\\AplicacaoController.cs",
+              "RelativeToolTip": "Estacionamento\\Controllers\\AplicacaoController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T21:46:09.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaxaController.cs",
+              "DocumentMoniker": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Controllers\\TaxaController.cs",
+              "RelativeDocumentMoniker": "Estacionamento\\Controllers\\TaxaController.cs",
+              "ToolTip": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Controllers\\TaxaController.cs",
+              "RelativeToolTip": "Estacionamento\\Controllers\\TaxaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T21:45:34.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Estacionamento\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Estacionamento\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T21:44:43.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Aplicacao.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Views\\Aplicacao\\Aplicacao.cshtml",
+              "RelativeDocumentMoniker": "Estacionamento\\Views\\Aplicacao\\Aplicacao.cshtml",
+              "ToolTip": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Views\\Aplicacao\\Aplicacao.cshtml",
+              "RelativeToolTip": "Estacionamento\\Views\\Aplicacao\\Aplicacao.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T21:44:07.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Estacionamento\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Estacionamento\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T21:43:39.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Estacionamento\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Estacionamento\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T21:44:04.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Program.cs",
+              "RelativeDocumentMoniker": "Estacionamento\\Program.cs",
+              "ToolTip": "C:\\Users\\Fellipe\\source\\repos\\Estacionamento\\Estacionamento\\Program.cs",
+              "RelativeToolTip": "Estacionamento\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T21:39:55.471Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

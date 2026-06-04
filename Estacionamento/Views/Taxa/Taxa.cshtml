@@ -1,0 +1,96 @@
+﻿@using Estacionamento.ViewModel
+@{
+    ViewData["Title"] = "Cadastro de Taxa";
+}
+
+@model TaxaViewModel
+
+<h1>Cadastro de Taxa</h1>
+
+<form asp-action="SalvarTaxa" method="post">
+
+    <div class="mb-3">
+        <label asp-for="Taxa.TaxaValor" class="form-label">
+            Valor da Taxa
+        </label>
+        <input asp-for="Taxa.TaxaValor" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Taxa.TaxaValorAdicional" class="form-label">
+            Valor Adicional da Taxa
+        </label>
+        <input asp-for="Taxa.TaxaValorAdicional" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Taxa.TaxaVigenciaInicio" class="form-label">
+            Vigência Inicial da Taxa
+        </label>
+        <input asp-for="Taxa.TaxaVigenciaInicio"
+               type="date"
+               class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Taxa.TaxaVigenciaFim" class="form-label">
+            Vigência Final da Taxa
+        </label>
+        <input asp-for="Taxa.TaxaVigenciaFim"
+               type="date"
+               class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Salvar
+    </button>
+
+</form>
+
+<hr />
+
+<h2>Taxas Cadastradas</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Valor</th>
+            <th>Valor Adicional</th>
+            <th>Vigência Inicial</th>
+            <th>Vigência Final</th>
+            <th>Ativo</th>
+            <th>Opções</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var taxa in Model.Taxas)
+        {
+            <tr>
+                <td>@taxa.TaxaValor.ToString("C2")</td>
+                <td>@taxa.TaxaValorAdicional.ToString("C2")</td>
+                <td>@taxa.TaxaVigenciaInicio.ToString("dd/MM/yyyy")</td>
+                <td>@taxa.TaxaVigenciaFim.ToString("dd/MM/yyyy")</td>
+                @if (taxa.TaxaAtiva)
+                {
+                    <td>Ativo</td>
+                }
+                else
+                {
+                    <td>Não </td>
+                }                
+                <td>
+                    @if (taxa.TaxaVigenciaFim >= DateOnly.FromDateTime(DateTime.Today))
+                    {
+                        <a class="btn btn-info btn-sm"
+                           asp-action="TaxaCancelarTaxa"
+                           asp-controller="Taxa"
+                           asp-route-id="@taxa.Id">
+                            Cancelar
+                        </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
