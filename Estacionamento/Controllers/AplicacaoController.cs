@@ -25,13 +25,13 @@ namespace Estacionamento.Controllers
             return View(lista);
         }
         public IActionResult AplicacaoRegistrarEntrada(string placa)
-        {
-
-            placa = placa.ToUpper();
+        {            
 
             if (!Veiculo.VeiculoPlacaValida(placa)){
                 return BadRequest("Placa de veículo inválida.");
             }
+
+            placa = placa.ToUpper();
 
             var entradaAberta = _context.EntradaSaida
                 .FirstOrDefault(e =>
